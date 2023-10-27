@@ -1,0 +1,19 @@
+import{_ as s,o as a,c as n,Q as l}from"./chunks/framework.fbc8a78a.js";const F=JSON.parse('{"title":"安装","description":"","frontmatter":{},"headers":[],"relativePath":"guide/installation.md","filePath":"guide/installation.md"}'),p={name:"guide/installation.md"},o=l(`<h1 id="安装" tabindex="-1">安装 <a class="header-anchor" href="#安装" aria-label="Permalink to &quot;安装&quot;">​</a></h1><h3 id="环境支持" tabindex="-1">环境支持 <a class="header-anchor" href="#环境支持" aria-label="Permalink to &quot;环境支持&quot;">​</a></h3><p>Storm UI 可以在支持 ES2018 的浏览器上运行，由于 Vue 3 不再支持 IE11，Storm UI 也不再支持 IE 浏览器。</p><h3 id="使用包管理器" tabindex="-1">使用包管理器 <a class="header-anchor" href="#使用包管理器" aria-label="Permalink to &quot;使用包管理器&quot;">​</a></h3><p>我们建议您使用包管理器（如 NPM、Yarn 或 pnpm）安装 Storm UI。</p><div class="language-bash vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">bash</span><pre class="shiki github-dark vp-code-dark"><code><span class="line"><span style="color:#6A737D;"># 选择一个你喜欢的包管理器</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;"># NPM</span></span>
+<span class="line"><span style="color:#B392F0;">$</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">npm</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">install</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">storm-ui</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;"># Yarn</span></span>
+<span class="line"><span style="color:#B392F0;">$</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">yarn</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">add</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">storm-ui</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;"># pnpm</span></span>
+<span class="line"><span style="color:#B392F0;">$</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">pnpm</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">install</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">storm-ui</span></span></code></pre><pre class="shiki github-light vp-code-light"><code><span class="line"><span style="color:#6A737D;"># 选择一个你喜欢的包管理器</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;"># NPM</span></span>
+<span class="line"><span style="color:#6F42C1;">$</span><span style="color:#24292E;"> </span><span style="color:#032F62;">npm</span><span style="color:#24292E;"> </span><span style="color:#032F62;">install</span><span style="color:#24292E;"> </span><span style="color:#032F62;">storm-ui</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;"># Yarn</span></span>
+<span class="line"><span style="color:#6F42C1;">$</span><span style="color:#24292E;"> </span><span style="color:#032F62;">yarn</span><span style="color:#24292E;"> </span><span style="color:#032F62;">add</span><span style="color:#24292E;"> </span><span style="color:#032F62;">storm-ui</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;"># pnpm</span></span>
+<span class="line"><span style="color:#6F42C1;">$</span><span style="color:#24292E;"> </span><span style="color:#032F62;">pnpm</span><span style="color:#24292E;"> </span><span style="color:#032F62;">install</span><span style="color:#24292E;"> </span><span style="color:#032F62;">storm-ui</span></span></code></pre></div><h3 id="浏览器直接引入" tabindex="-1">浏览器直接引入 <a class="header-anchor" href="#浏览器直接引入" aria-label="Permalink to &quot;浏览器直接引入&quot;">​</a></h3><p>直接通过浏览器的 HTML 标签导入 Storm UI，然后就可以使用全局变量 <code>StormUI</code> 了。</p>`,8),e=[o];function t(c,r,i,y,E,d){return a(),n("div",null,e)}const m=s(p,[["render",t]]);export{F as __pageData,m as default};
